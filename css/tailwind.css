@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'League Spartan';
+        src: url(/fonts/LeagueSpartan.ttf);
+    }
+    @font-face {
+        font-family: 'Libre Baskerville';
+        src: url(/fonts/LibreBaskerville.ttf);
+    }
+}
